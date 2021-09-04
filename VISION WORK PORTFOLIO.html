@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Portfolio</title>
+	<style type="text/css">
+
+		html{
+			scroll-behavior: smooth;
+		}
+		*{
+			margin: 0;
+			padding: 0;
+			font-family: 'Poppins', sans-serif;
+			box-sizing: border-box;
+		}
+		body{
+			background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("img.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+
+
+		.header{
+			padding: 20px;
+			background-color: #24262b;
+			color: #fff;
+			font-size: 40px;
+		}
+
+		.container{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			
+			flex-basis: wrap;
+		}
+
+		.container .card{
+			position: relative;
+			width: 280px;
+			height: 500px;
+			margin: 20px;
+			box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+			border-radius: 15px;
+			background: rgba(255, 255, 255, 0.1);
+			overflow: hidden;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border-top: 1px solid rgba(255,255,255,0.5);
+			border-left: 1px solid rgba(255,255,255,0.5);
+			backdrop-filter: blur(5px);
+		}
+
+		.container .card .content{
+			padding: 20px;
+			text-align: center;
+			transition: 0.5s;
+		}
+
+		.container .card .content h2{
+			position: absolute;
+			top: -40px;
+			right: 30px;
+			font-size: 8em;
+		}
+		.container .card .content h3{
+			font-size: 1.8em;
+			color: #bbbbbb;
+			z-index: 1;
+
+		}
+
+		.container .card .content a{
+			font-size: 1em;
+			color: #bbbbbb;
+			font-weight: 300;
+			position: relative;
+			text-decoration: none;
+			transition: 0.3s;
+		}
+		.container .card .content li ol{
+			list-style-type: none;
+		}
+
+		.container .card .content a:hover{
+			padding-left: 20px;
+		}
+
+
+
+
+
+	</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<h1 class="header" align="center">MY PORTFOLIO </h1>
+
+	<section class="container">
+		<div class="card">
+			<div class="content">
+				<h2>01</h2>
+				<h3>LAB EXERCISE</h3>
+				<ul>
+					<li><a href="LAB EXERCISE 1/Ex1.html">Exercise 1</a></li>
+					<li><a href="LAB EXERCISE 1/Ex2.html">Exercise 2</a></li>
+					<li>
+						<ol>
+							<li><a href="LAB EXERCISE 1/Ex3.html">Page 1</a></li>
+							<li><a href="LAB EXERCISE 1/Ex4.html">Page 2</a></li>
+						</ol>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="content">
+				<h2>02</h2>
+				<h3>LAB EXERCISE</h3>
+				<ul>
+					<li>
+						<ol>
+							<li><a href="LAB EXERCISE 2/home.html">Home</a></li>
+							<li><a href="LAB EXERCISE 2/about.html">About</a></li>
+						</ol>
+					</li>
+					<li><a href="LAB EXERCISE 2/Labwork2.html">Exercise 2</a></li>
+					<li><a href="LAB EXERCISE 2/Labwork3.html">Exercise 3</a></li>
+					
+
+				</ul>
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="content">
+				<h2>03</h2>
+				<h3>LAB EXERCISE</h3>
+				<ul>
+					<li><a href="LAB EXERCISE 3/Ex1.html">Exercise 1</a></li>
+					<li><a href="LAB EXERCISE 3/Ex2.html">Exercise 2</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="content">
+				<h2>04</h2>
+				<h3>CSS</h3>
+				<ul>
+					<li><a href="LAB EXERCISE 4/index.html">Exercise 1</a></li>
+
+				</ul>
+			</div>
+		</div>
+
+		
+
+	</section>
+	<section class="container">
+
+		<div class="card">
+			<div class="content">
+				<h2>05</h2>
+				<h3>CSS</h3>
+				<ul>
+					<li><a href="LAB EXERCISE 5/Task 1.html">Exercise 1</a></li>
+					<li><a href="LAB EXERCISE 5/Task 2.html">Exercise 2</a></li>
+					<li><a href="LAB EXERCISE 5/Task 3.html">Exercise 3</a></li>
+
+				</ul>
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="content">
+				<h2>06</h2>
+				<h3>Java Script</h3>
+				<ul>
+					<li><a href="LAB EXERCISE 6/1.html">Exercise 1</a></li>
+					<li><a href="LAB EXERCISE 6/2.html">Exercise 2</a></li>
+					<li><a href="LAB EXERCISE 6/3.html">Exercise 3</a></li>
+					<li><a href="LAB EXERCISE 6/4.html">Exercise 4</a></li>
+					<li><a href="LAB EXERCISE 6/5.html">Exercise 5</a></li>
+					<li><a href="LAB EXERCISE 6/6.html">Exercise 6</a></li>
+					<li><a href="LAB EXERCISE 6/7.html">Exercise 7</a></li>
+					<li><a href="LAB EXERCISE 6/8.html">Exercise 8</a></li>
+					<li><a href="LAB EXERCISE 6/9.html">Exercise 9</a></li>
+					<li><a href="LAB EXERCISE 6/10.html">Exercise 10</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="content">
+				<h2>07</h2>
+				<h3>Wireframe</h3>
+				<ul>
+					<li><a href="Week 4/wireframe.png">Exercise 1</a></li>
+
+				</ul>
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="content">
+				<h2>08</h2>
+				<h3>Java script</h3>
+				<ul>
+					<li><a href="Week 12/Ex1.html">Exercise 1</a></li>
+					<li><a href="Week 12/Ex2.html">Exercise 2</a></li>
+					<li><a href="Week 12/Ex3.html">Exercise 3</a></li>
+					<li><a href="Week 12/Ex4.html">Exercise 4</a></li>
+					<li><a href="Week 12/Ex5.html">Exercise 5</a></li>
+
+				</ul>
+			</div>
+		</div>
+	</section>
+</body>
+
+</html>
